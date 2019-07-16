@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #3da5da
+}
+
+#addButton {
+    background-color: #3da5da;
+    color: white;
+}
