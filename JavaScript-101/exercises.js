@@ -104,3 +104,18 @@ function evenOdd() {
 evenOdd()
 
 // Take the array [3,4,56,7,8,1] and sort them in ascending and descending order. 
+
+let myArray = [3,4,56,7,8,1]
+function SortAssend() {
+    myArray = myArray.sort(function(a,b){return a-b})
+    return myArray
+}
+let newArray = SortAssend()
+console.log(newArray)
+
+function sortDescend() {
+    myArray = myArray.sort(function(a,b){return b-a})
+    return myArray
+}
+let anotherArray = sortDescend()
+console.log(anotherArray)
