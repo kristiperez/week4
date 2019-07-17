@@ -2,15 +2,43 @@ body {
     font-family: sans-serif;
 }
 
+h4 {
+    color: gray;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 ul {
     list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
-    background-color: #3da5da
+    background-color: #3da5da;
+    color: white;
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    line-height:30px;
 }
 
 #addButton {
     background-color: #3da5da;
     color: white;
 }
+
+button {
+    background-color:#3da5da;
+    color:white;
+}
+

@@ -8,6 +8,7 @@ let completedTasksUl = document.getElementById("completedTasks")
 addButton.addEventListener('click',function() {
 
     let task = taskTextBox.value
+    taskTextBox.value = ""
     // create element
     let pendingLi = document.createElement("li")
     pendingLi.innerHTML = task // <li>Task1<li>
