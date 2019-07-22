@@ -10,8 +10,8 @@ getQuoteBtn.addEventListener('click',function() {
 
         let stock =  getStockQuote(tickerSymbol)
         let stockDiv = `<div class="stockDetails">
-                        <h1>Ticker: ${tickerSymbol}<h1>
-                        <h2>${stock.name}<h2>
+                        <h2>Ticker: ${tickerSymbol}<h2>
+                        <h3>${stock.name}<h3>
                         <p>${stock.price}<p>
                         </div>`
 
